@@ -1,4 +1,4 @@
-
+/* global $, Stripe */ //Just FYI: In case we get code errors saying $, Stripe is undefined
 //Document Ready.
 $(document).on('turbolinks:load', function(){
   var theForm = $('#pro_form');
